@@ -41,4 +41,6 @@ test.describe('header', () => {
     await expect(createAccountPage).toBeVisible();
     await expect(page).toHaveURL(BASE_URL + '/customer/account/create/');
   });
+    
 })
+
